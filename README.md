@@ -1,10 +1,12 @@
-#Advancing wastewater monitoring through engineered biological sensors
-**Yash Patel, Kara Walp**
+# Advancing Wastewater Monitoring through Engineered Biological Sensors
 
-Department of Biomedical Engineering, Senior Design, Group 4 (2024-2025)
+**Yash Patel, Kara Walp**  
+Department of Biomedical Engineering, Senior Design, Group 4 (2024–2025)  
 Advisors: Rabia Tuğçe Yazicigil Kirby (BME, ECE), Miguel Jimenez (BME, MSE)
 
-###Abstract
+---
+
+## Abstract
 Effective industrial wastewater monitoring is critical for regulatory compliance and process optimization. However, traditional analytical techniques such as high-performance liquid chromatography (HPLC) are costly, require centralized facilities, and introduce significant latency between sampling and actionable results. Advances in synthetic biology have enabled the engineering of microbial whole-cell biosensors capable of detecting environmental contaminants with high specificity and rapid response times. Yet, practical deployment is limited by microbial instability in harsh environments and the lack of compact, low-power systems for low-signal optical outputs.
 
 This work presents a deployable biosensing platform integrating a microbe housing and a low-power optical detection system designed for in situ wastewater monitoring. A membrane-based chamber enhances microbial viability by modulating nutrient and oxygen diffusion while preventing environmental microbial egress. Optical detection of luminescence was achieved using an analog front end with noise shaping and oversampling, enabling quantification of multiple biosensor outputs.
