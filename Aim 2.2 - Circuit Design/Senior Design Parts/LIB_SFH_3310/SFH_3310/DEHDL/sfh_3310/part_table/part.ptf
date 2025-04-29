@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SFH_3310'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "ams OSRAM", "SFH 3310" (!) = "", "SFH3310", "Other", "720-SFH3310", "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-3310?qs=nTDll3UaDK7Q6k0dcfX6Lw%3D%3D", "Phototransistor Chip Silicon 570nm 2-Pin T-1", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036822.pdf"
+END_PART
+
+END.

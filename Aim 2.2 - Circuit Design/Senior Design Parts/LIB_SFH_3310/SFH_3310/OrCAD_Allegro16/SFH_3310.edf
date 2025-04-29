@@ -1,0 +1,213 @@
+
+(EDIF
+  (rename &SFH_3310 "SFH_3310")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 03 28 14 05 43)
+      (dataOrigin "832593/1641194/2.50/2/4/Phototransistor")
+      (program "SamacSys ECAD Model SFH_3310"
+        (version "2.4"))))
+  (library
+  (rename &SFH_3310 "SFH_3310")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SFH_3310 "SFH_3310")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "SFH_3310"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SFH3310"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "720-SFH3310"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-3310?qs=nTDll3UaDK7Q6k0dcfX6Lw%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "ams OSRAM"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SFH 3310"))
+          (property (rename &Description "Description") (string "Phototransistor Chip Silicon 570nm 2-Pin T-1"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036822.pdf"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SFH_3310"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &C "C")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &E "E")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &E (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -700) (pt 300 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -700))))
+            )
+            (portImplementation
+              (name &C (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -100) (pt 300 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 200))
+              (path
+                (pointList
+                  (pt 200 -300)
+                  (pt 200 -500)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -350)
+                  (pt 300 -250)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 300 -550)
+                  (pt 300 -600)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 300 -250)
+                  (pt 300 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -450)
+                  (pt 300 -550)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -180)
+                  (pt 100 -280)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt -60 -240)
+                  (pt 40 -340)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (circle
+                (pt 92 -400)
+                (pt 408 -400)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 230 -500)
+                  (pt 250 -480)
+                  (pt 270 -520)
+                  (pt 230 -500)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt -20 -310)
+                  (pt 10 -280)
+                  (pt 40 -340)
+                  (pt -20 -310)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 40 -250)
+                  (pt 70 -220)
+                  (pt 100 -280)
+                  (pt 40 -250)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 -420))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 -520))))
+          )
+        )
+      )
+    )
+  )
+)

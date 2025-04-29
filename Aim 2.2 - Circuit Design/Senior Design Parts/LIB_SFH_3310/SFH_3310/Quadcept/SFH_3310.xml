@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/832593/1641194/2.50/2/4/Phototransistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c150_h100" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="39.370078740157">
+    <padshape layer="TOP" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="66.929133858267" height="66.929133858267" />
+    <padshape layer="INNER" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="BOTTOM" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="66.929133858267" height="66.929133858267" />
+  </padstyle>
+  <footprint name="SFH3310" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c150_h100" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c150_h100" originx="0" originy="-99.999999999999" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-61.023622047243" originy="11.023622047244" endx="61.023622047243" endy="11.023622047244" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="61.023622047243" originy="11.023622047244" endx="61.023622047243" endy="-111.02362204724" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="61.023622047243" originy="-111.02362204724" endx="-61.023622047243" endy="-111.02362204724" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-61.023622047243" originy="-111.02362204724" endx="-61.023622047243" endy="11.023622047244" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-100.3937007874" originy="68.897637795275" endx="100.3937007874" endy="68.897637795275" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="100.3937007874" originy="68.897637795275" endx="100.3937007874" endy="-168.89763779527" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="100.3937007874" originy="-168.89763779527" endx="-100.3937007874" endy="-168.89763779527" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-100.3937007874" originy="-168.89763779527" endx="-100.3937007874" endy="68.897637795275" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="61.023622047243" originy="11.023622047244" endx="61.023622047243" endy="-111.02362204724" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-61.023622047243" originy="11.023622047244" endx="-61.023622047243" endy="-111.02362204724" width="3.9370078740157" />
+  </footprint>
+  <symbol name="SFH_3310" originx="0" originy="0">
+    <line originx="-100" originy="-200" endx="-100" endy="-400" width="0" />
+    <line originx="-100" originy="-250" endx="0" endy="-150" width="0" />
+    <line originx="0" originy="-450" endx="0" endy="-500" width="0" />
+    <line originx="0" originy="-150" endx="0" endy="-100" width="0" />
+    <line originx="-100" originy="-350" endx="0" endy="-450" width="0" />
+    <line originx="-300" originy="-80" endx="-200" endy="-180" width="0" />
+    <line originx="-360" originy="-140" endx="-260" endy="-240" width="0" />
+    <arc originx="-50" originy="-300" startangle="180" sweepangle="180" radius="158.114" width="0" />
+    <arc originx="-50" originy="-300" startangle="180" sweepangle="-180" radius="158.114" width="0" />
+    <sympin number="2" originx="0" originy="-500" rotation="270" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="20" originy="-600" style="Default" rotation="90" justify="lowerleft" flipped="False" hidden="False" data="E" />
+      <text name="pindes" originx="-20" originy="-600" style="Default" rotation="90" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="1" originx="0" originy="-100" rotation="90" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="20" originy="0" style="Default" rotation="90" justify="upperleft" flipped="False" hidden="False" data="C" />
+      <text name="pindes" originx="-20" originy="0" style="Default" rotation="90" justify="upperright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="-70" y="-400" />
+      <point x="-50" y="-380" />
+      <point x="-30" y="-420" />
+    </polygon>
+    <polygon type="polygon">
+      <point x="-320" y="-210" />
+      <point x="-290" y="-180" />
+      <point x="-260" y="-240" />
+    </polygon>
+    <polygon type="polygon">
+      <point x="-260" y="-150" />
+      <point x="-230" y="-120" />
+      <point x="-200" y="-180" />
+    </polygon>
+  </symbol>
+  <component name="SFH_3310" designatorprefix="Q" height="0" footprint="SFH3310">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="E" />
+    <attached_symbol gate="1" name="SFH_3310" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036822.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Phototransistor Chip Silicon 570nm 2-Pin T-1" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="720-SFH3310" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-3310?qs=nTDll3UaDK7Q6k0dcfX6Lw%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="ams OSRAM" />
+    <text name="Manufacturer_Part_Number" originx="150" originy="-350" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SFH 3310" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,140 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SFH_3310"
+   (description "Phototransistor Chip Silicon 570nm 2-Pin T-1")
+   (family "ANA")
+   (package "SFH3310")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036822.pdf")
+   (attribute "Mouser Part Number" "720-SFH3310")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-3310?qs=nTDll3UaDK7Q6k0dcfX6Lw%3D%3D")
+   (attribute "Manufacturer_Name" "ams OSRAM")
+   (attribute "Manufacturer_Part_Number" "SFH 3310")
+   (gate
+    (symbol "SFH_3310")
+    (pin "E" 2 PS)
+    (pin "C" 1 PS)
+   )
+  )
+  (symbol "SFH_3310"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 0 -150) (pt -100 -450))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt -100 -200) (pt -100 -400))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt -100 -250) (pt 0 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 0 -450) (pt 0 -500))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 0 -150) (pt 0 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt -100 -350) (pt 0 -450))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt -300 -80) (pt -200 -180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt -360 -140) (pt -260 -240))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt -70 -400) (pt -50 -380) (pt -30 -420) (pt -70 -400))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt -320 -210) (pt -290 -180) (pt -260 -240) (pt -320 -210))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt -260 -150) (pt -230 -120) (pt -200 -180) (pt -260 -150))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 -600) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible true))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible true))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SFH3310"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.55 0.28)
+      (pt 1.55 0.28)
+      (pt 1.55 -2.82)
+      (pt -1.55 -2.82)
+      (pt -1.55 0.28))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.55 1.75)
+      (pt 2.55 1.75)
+      (pt 2.55 -4.29)
+      (pt -2.55 -4.29)
+      (pt -2.55 1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.55 0.28)
+      (pt 1.55 -2.82))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.55 0.28)
+      (pt -1.55 -2.82))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 -2.540) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "SFH_3310.stp"
+    (euler 0 0 180)
+    (offset 0 -1.159999966621399 0)
+   )
+  )
+ )
+)

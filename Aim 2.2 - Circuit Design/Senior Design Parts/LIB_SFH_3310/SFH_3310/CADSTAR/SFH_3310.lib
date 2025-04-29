@@ -1,0 +1,16 @@
+.SFH_3310 :1 ;Phototransistor Chip Silicon 570nm 2-Pin T-1
+SFH3310
+*STM Q
+*NGS
+*PLB 1="C" 2="E"
+*MXP 2
+*DFN SFH_3310
+~!Mouser Part Number (720-SFH3310)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-3310?qs=nTDll3UaDK7Q6k0dcfX6Lw%3D%3D)
+~!Manufacturer_Name (ams OSRAM)
+~!Manufacturer_Part_Number (SFH 3310)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036822.pdf)
+~!Height (-)
+~!3D_Model (SFH_3310)
+SFH_3310
+1.1!U 2.1!U 

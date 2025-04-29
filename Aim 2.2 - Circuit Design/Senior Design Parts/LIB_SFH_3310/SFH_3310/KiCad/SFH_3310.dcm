@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SFH_3310
+D Phototransistor Chip Silicon 570nm 2-Pin T-1
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036822.pdf
+$ENDCMP
+#
+#End Doc Library
